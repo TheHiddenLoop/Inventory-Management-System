@@ -8,7 +8,7 @@ import productRouter from "./routes/product.js";
 import path from "path";
 import { fileURLToPath } from "url";
 
-// 👇 Fix __dirname for ESM
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -17,7 +17,7 @@ dotenv.config();
 app.use(cookieParser());
 app.use(express.json());
 
-// 👇 Use ESM-compatible __dirname
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use("/api/admin", router);
