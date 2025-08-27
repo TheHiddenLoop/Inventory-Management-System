@@ -1,5 +1,8 @@
 # 📦 Inventory Management System
 
+##[🌐 Live App Expense Tracker](https://inventory-management-system-3kay.onrender.com)
+Test-> email:exampdles@gmail.com, password: 123
+
 A full-stack **Inventory Management System** built with **Node.js**, **Express**, **MongoDB (Mongoose)**, and vanilla JavaScript for frontend handling. It helps businesses manage products, categories, suppliers, and track profit and stock with ease.
 
 ---
